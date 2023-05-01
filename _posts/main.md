@@ -15,7 +15,7 @@ the reference point. In the figure below, case I shows a network that is
 robust at the reference point while case II shows a network that is not
 robust at the reference point.
 
-<img src="images/neural_network_verification_using_linear_programming/images/motivating example.png" alt="image" />
+<img src="../images/neural_network_verification_using_linear_programming/images/motivating example.png" alt="image" />
 
 Ensuring robustness of networks is important because neural networks are
 vulnerable to adversarial examples produced by small perturbations in
@@ -74,7 +74,7 @@ with *l*<sub>0</sub> ∈ {1, 2, ..., *K*}. It is worth noting that we 
 use a different labeling function here, e.g. *softmax*, without
 affecting our analysis as long as the labeling function of choice is
 non-decreasing.  
-<img src="images/pi_fw.png" alt="image" />
+<img src="../images/neural_network_verification_using_linear_programming/images/pi_fw.png" alt="image" />
 
 ## Partitioning the co-domain of *f*<sub>*W*</sub>
 
@@ -145,7 +145,7 @@ The proof in the opposite direction uses the same argument. ◻
 
 </div>
 
-<img src="images/pi_maps_Si_to_i.png" style="width:100.0%"
+<img src="../images/neural_network_verification_using_linear_programming/images/pi_maps_Si_to_i.png" style="width:100.0%"
 alt="image" />
 
 ## Formalizing robustness for classifier networks
@@ -198,7 +198,7 @@ The two-class classifier network shown in the figure below is not
 *ϵ*-robust at *x*<sub>0</sub> since $\\Tilde{x}$ is an adversarial
 example.
 
-<img src="images/adversarial_example.png" style="width:100.0%"
+<img src="../images/neural_network_verification_using_linear_programming/images/adversarial_example.png" style="width:100.0%"
 alt="image" />
 
 ## Verification as an optimization problem

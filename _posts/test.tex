@@ -1,0 +1,14 @@
+\section{Problem setup}
+Suppose we are given a \textit{K-class classifier} fully connected, feed forward neural network that was trained using the ReLU activation function. Note that the weights and biases of this network are fixed. Suppose the network accepts real vectors of length $n$ as inputs. Then we can represent the network as a classification function $F$ given by: $\mathbb{R}^n \longrightarrow \{1, 2, ..., K\}$:
+\begin{equation}
+    F(x_0) = l_0
+\end{equation}
+where $l_0$ is the class label assigned to the input $x_0$ by the network.\\
+
+Then we can write the output of the $i$th layer recursively as follows:
+\begin{equation}\label{eq_nn_output_recursive}
+\begin{split}
+    z_{i} &= \phi(W_{i} z_{i-1} + b_{i})\\
+    &= \phi \circ \omega_i(z_{i - 1})
+\end{split}
+\end{equation}
